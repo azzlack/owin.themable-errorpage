@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Owin.ThemableErrorPage</id>
+    <version>1.0.2</version>
+    <title>Owin.ThemableErrorPage</title>
+    <authors>Ove Andersen</authors>
+    <owners>EyeCatch</owners>
+    <licenseUrl>http://www.eyecatch.no/licenses/apache-20/</licenseUrl>
+    <projectUrl>https://github.com/azzlack/owin.themable-errorpage</projectUrl>
+    <iconUrl>http://www.eyecatch.no/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Themable error page for OWIN-hosted applications.</description>
+    <summary>Themable error page for OWIN-hosted applications.</summary>
+	<releaseNotes>https://github.com/azzlack/owin.themable-errorpage/issues?q=is:issue+milestone:1.0.0</releaseNotes>
+    <copyright>Copyright EyeCatch 2015</copyright>
+    <language>en-US</language>
+    <tags>owin errorpage error eyecatch</tags>
+	<dependencies>
+		<dependency id="RazorEngine" version="3.6.5" />
+		<dependency id="Microsoft.Owin.Diagnostics" version="3.0.1" />
+	</dependencies>
+  </metadata>
+</package>
